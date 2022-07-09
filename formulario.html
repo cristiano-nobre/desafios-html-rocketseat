@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="test.php" method="post">
+      <fieldset>
+        <legend>Entre em contato</legend>
+
+        <h4>Assunto:</h4>
+        <select name="select">
+          <option value="suporte">Suporte</option>
+          <option value="sugestao">Sugestão</option>
+          <option value="reclamacao">Reclamação</option>
+        </select>
+
+        <h4>Nome Completo:</h4>
+        <input type="text" name="nome completo" id="nome completo" />
+
+        <h4>E-mail:</h4>
+        <input type="email" name="e-mail" id="e-mail" />
+
+        <h4>Mensagem:</h4>
+        <textarea name="mensagem" id="mensagem" cols="25" rows="10">
+Digite sua mensagem aqui.</textarea
+        >
+
+        <div>
+          <br />
+          <input type="checkbox" id="mensagens" name="mensagens" /> Aceito
+          receber novidades por e-mail.
+        </div>
+        <br />
+
+        <button>Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
